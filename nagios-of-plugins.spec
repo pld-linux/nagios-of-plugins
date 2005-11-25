@@ -1,5 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Open Fusion Nagios Plugins
+Summary(pl):	Wtyczki Nagiosa Open Fusion
 Name:		nagios-of-plugins
 Version:	0.5.2
 Release:	0.3
@@ -20,26 +21,43 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Nagios Plugin Package for monitoring of outstanding updates via 'yum'
 or 'up2date', various constraints on a given file, inode usage across
-all partitions, status of all linux software raid devices, kernel
+all partitions, status of all Linux software RAID devices, kernel
 version, length of the qmail mail queue.
 
+%description -l pl
+Pakiet wtyczek Nagiosa do monitorowania zaleg³ych uaktualnieñ przez
+yuma lub up2daet, ró¿nych ograniczeñ dla danego pliku, wykorzystania
+i-wêz³ów na wszystkich partycjach, stanu wszystkich programowych
+linuksowych urz±dzeñ RAID, wersji j±dra, d³ugo¶ci kolejki pocztowej
+qmaila.
+
 %package -n perl-Nagios-Plugin
-Summary:	Perl module for creating nagios plugins
+Summary:	Perl module for creating Nagios plugins
+Summary(pl):	Modu³ Perla do tworzenia wtyczek Nagiosa
 Group:		Development/Languages/Perl
 
 %description -n perl-Nagios-Plugin
-Nagios::Plugin is a perl module for simplifying the creation of nagios
+Nagios::Plugin is a Perl module for simplifying the creation of Nagios
 plugins, mainly by standardising some of the argument parsing and
 handling stuff most plugins require.
 
+%description -n perl-Nagios-Plugin -l pl
+Nagios::Plugin to modu³ Perla upraszczaj±cy tworzenie wtyczek Nagiosa,
+g³ównie poprzez standaryzacjê przetwarzania niektórych argumentów i
+obs³ugi rzeczy wymaganych przez wiêkszo¶æ wtyczek.
+
 %package -n nagios-notify_by_jabber
 Summary:	Utility to send Nagios alerts using Jabber
+Summary(pl):	Narzêdzie do wysy³ania alarmów Nagiosa przy u¿yciu Jabbera
 Group:		Networking
 Requires:	nagios-core
 Requires:	perl-IO-Socket-SSL
 
 %description -n nagios-notify_by_jabber
 Utility to send Nagios alerts using Jabber.
+
+%description -n nagios-notify_by_jabber -l pl
+Narzêdzie do wysy³ania alarmów Nagiosa przy u¿yciu Jabbera.
 
 %prep
 %setup -q
