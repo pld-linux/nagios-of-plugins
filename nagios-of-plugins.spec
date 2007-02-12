@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Open Fusion Nagios Plugins
-Summary(pl):	Wtyczki Nagiosa Open Fusion
+Summary(pl.UTF-8):   Wtyczki Nagiosa Open Fusion
 Name:		nagios-of-plugins
 Version:	0.5.2
 Release:	0.3
@@ -24,16 +24,16 @@ or 'up2date', various constraints on a given file, inode usage across
 all partitions, status of all Linux software RAID devices, kernel
 version, length of the qmail mail queue.
 
-%description -l pl
-Pakiet wtyczek Nagiosa do monitorowania zaleg³ych uaktualnieñ przez
-yuma lub up2daet, ró¿nych ograniczeñ dla danego pliku, wykorzystania
-i-wêz³ów na wszystkich partycjach, stanu wszystkich programowych
-linuksowych urz±dzeñ RAID, wersji j±dra, d³ugo¶ci kolejki pocztowej
+%description -l pl.UTF-8
+Pakiet wtyczek Nagiosa do monitorowania zalegÅ‚ych uaktualnieÅ„ przez
+yuma lub up2daet, rÃ³Å¼nych ograniczeÅ„ dla danego pliku, wykorzystania
+i-wÄ™zÅ‚Ã³w na wszystkich partycjach, stanu wszystkich programowych
+linuksowych urzÄ…dzeÅ„ RAID, wersji jÄ…dra, dÅ‚ugoÅ›ci kolejki pocztowej
 qmaila.
 
 %package -n perl-Nagios-Plugin
 Summary:	Perl module for creating Nagios plugins
-Summary(pl):	Modu³ Perla do tworzenia wtyczek Nagiosa
+Summary(pl.UTF-8):   ModuÅ‚ Perla do tworzenia wtyczek Nagiosa
 Group:		Development/Languages/Perl
 
 %description -n perl-Nagios-Plugin
@@ -41,14 +41,14 @@ Nagios::Plugin is a Perl module for simplifying the creation of Nagios
 plugins, mainly by standardising some of the argument parsing and
 handling stuff most plugins require.
 
-%description -n perl-Nagios-Plugin -l pl
-Nagios::Plugin to modu³ Perla upraszczaj±cy tworzenie wtyczek Nagiosa,
-g³ównie poprzez standaryzacjê przetwarzania niektórych argumentów i
-obs³ugi rzeczy wymaganych przez wiêkszo¶æ wtyczek.
+%description -n perl-Nagios-Plugin -l pl.UTF-8
+Nagios::Plugin to moduÅ‚ Perla upraszczajÄ…cy tworzenie wtyczek Nagiosa,
+gÅ‚Ã³wnie poprzez standaryzacjÄ™ przetwarzania niektÃ³rych argumentÃ³w i
+obsÅ‚ugi rzeczy wymaganych przez wiÄ™kszoÅ›Ä‡ wtyczek.
 
 %package -n nagios-notify_by_jabber
 Summary:	Utility to send Nagios alerts using Jabber
-Summary(pl):	Narzêdzie do wysy³ania alarmów Nagiosa przy u¿yciu Jabbera
+Summary(pl.UTF-8):   NarzÄ™dzie do wysyÅ‚ania alarmÃ³w Nagiosa przy uÅ¼yciu Jabbera
 Group:		Networking
 Requires:	nagios-core
 Requires:	perl-IO-Socket-SSL
@@ -56,8 +56,8 @@ Requires:	perl-IO-Socket-SSL
 %description -n nagios-notify_by_jabber
 Utility to send Nagios alerts using Jabber.
 
-%description -n nagios-notify_by_jabber -l pl
-Narzêdzie do wysy³ania alarmów Nagiosa przy u¿yciu Jabbera.
+%description -n nagios-notify_by_jabber -l pl.UTF-8
+NarzÄ™dzie do wysyÅ‚ania alarmÃ³w Nagiosa przy uÅ¼yciu Jabbera.
 
 %prep
 %setup -q
