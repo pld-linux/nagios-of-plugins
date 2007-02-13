@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Open Fusion Nagios Plugins
-Summary(pl.UTF-8):   Wtyczki Nagiosa Open Fusion
+Summary(pl.UTF-8):	Wtyczki Nagiosa Open Fusion
 Name:		nagios-of-plugins
 Version:	0.5.2
 Release:	0.3
@@ -33,7 +33,7 @@ qmaila.
 
 %package -n perl-Nagios-Plugin
 Summary:	Perl module for creating Nagios plugins
-Summary(pl.UTF-8):   Moduł Perla do tworzenia wtyczek Nagiosa
+Summary(pl.UTF-8):	Moduł Perla do tworzenia wtyczek Nagiosa
 Group:		Development/Languages/Perl
 
 %description -n perl-Nagios-Plugin
@@ -48,7 +48,7 @@ obsługi rzeczy wymaganych przez większość wtyczek.
 
 %package -n nagios-notify_by_jabber
 Summary:	Utility to send Nagios alerts using Jabber
-Summary(pl.UTF-8):   Narzędzie do wysyłania alarmów Nagiosa przy użyciu Jabbera
+Summary(pl.UTF-8):	Narzędzie do wysyłania alarmów Nagiosa przy użyciu Jabbera
 Group:		Networking
 Requires:	nagios-core
 Requires:	perl-IO-Socket-SSL
