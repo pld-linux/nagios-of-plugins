@@ -1,0 +1,14 @@
+--- ./notify_by_jabber	2005-06-06 04:33:08.000000000 +0300
++++ ./notify_by_jabber	2005-11-23 00:13:43.000000000 +0200
+@@ -14,9 +14,9 @@
+ use File::Basename;
+ use Config::Tiny;
+ 
+-# Requires config in /etc/nagios/plugins.cfg with server/username/password details
++# Requires config in /etc/nagios/jabber.cfg with server/username/password details
+ #   (either at top level as var1=value parameters, or in [notify_by_jabber] section)
+-my $CONFIG_FILE = "/etc/nagios/plugins.cfg";
++my $CONFIG_FILE = "/etc/nagios/jabber.cfg";
+ die "cannot find config file '$CONFIG_FILE" unless -e $CONFIG_FILE;
+ 
+ my $me = basename($0);
