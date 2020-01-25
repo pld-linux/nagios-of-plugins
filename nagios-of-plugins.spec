@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Open Fusion Nagios Plugins
 Summary(pl.UTF-8):	Wtyczki Nagiosa Open Fusion
 Name:		nagios-of-plugins
